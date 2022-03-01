@@ -1,0 +1,13 @@
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.Development.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Task_Bank_WebService.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\clrcompression.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\clrjit.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\coreclr.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\mscordaccore.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\aspnetcorev2_inprocess.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Accounts_API.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\CentralBank_API.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Entities.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Task_Bank_WebService.xml
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Task_Bank_WebService.exe

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb3a099c-59f9-4dc4-a8e0-05a873d01867": {
+      "ProjectGuid": "fb3a099c-59f9-4dc4-a8e0-05a873d01867",
+      "DisplayName": "Task_Bank_WebService",
+      "ColorIndex": 0
+    },
+    "2fa850e4-9b21-4531-a33e-17266f999018": {
+      "ProjectGuid": "2fa850e4-9b21-4531-a33e-17266f999018",
+      "DisplayName": "Accounts_API",
+      "ColorIndex": 1
+    },
+    "d9c29818-527b-4f12-a0f5-c58d1d4394e4": {
+      "ProjectGuid": "d9c29818-527b-4f12-a0f5-c58d1d4394e4",
+      "DisplayName": "CentralBank_API",
+      "ColorIndex": 2
+    },
+    "9194e78f-d4fb-4a26-862a-c2d99aa8807f": {
+      "ProjectGuid": "9194e78f-d4fb-4a26-862a-c2d99aa8807f",
+      "DisplayName": "Entities",
+      "ColorIndex": 3
+    },
+    "175a9ee4-23e2-4845-ad0b-2e8c51230bc4": {
+      "ProjectGuid": "175a9ee4-23e2-4845-ad0b-2e8c51230bc4",
+      "DisplayName": "Repositories",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

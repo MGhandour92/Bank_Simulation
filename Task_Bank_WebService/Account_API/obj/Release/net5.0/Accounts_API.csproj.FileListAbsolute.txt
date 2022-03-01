@@ -1,0 +1,17 @@
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\Accounts_API.deps.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\Accounts_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\ref\Accounts_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\Accounts_API.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\CentralBank_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\CentralBank_API.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\bin\Release\net5.0\Entities.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.csproj.AssemblyReference.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.AssemblyInfoInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.AssemblyInfo.cs
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.csproj.CoreCompileInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.csproj.CopyComplete
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\ref\Accounts_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Account_API\obj\Release\net5.0\Accounts_API.pdb

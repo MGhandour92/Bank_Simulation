@@ -1,0 +1,12 @@
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\bin\Debug\net5.0\Entities.deps.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\bin\Debug\net5.0\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\bin\Debug\net5.0\ref\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\bin\Debug\net5.0\Entities.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\ref\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Entities\obj\Debug\net5.0\Entities.pdb

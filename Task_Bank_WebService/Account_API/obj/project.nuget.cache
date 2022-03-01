@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rmO9FWSn61AkoMS3dh3+J2bW51ne2HkFNqwcu6cQnBvu6AA3cRaKbADGCMnwjv/gyD+187TAtxH3mXJWWVE5nA==",
+  "success": true,
+  "projectFilePath": "F:\\GIT\\Study\\Bank_Simulation_Task\\Task_Bank_WebService\\Account_API\\Accounts_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mo.elghandour\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

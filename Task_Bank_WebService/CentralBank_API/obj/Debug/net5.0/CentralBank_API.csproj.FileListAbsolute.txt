@@ -1,0 +1,15 @@
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\CentralBank_API.deps.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\CentralBank_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\ref\CentralBank_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\CentralBank_API.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\Entities.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\bin\Debug\net5.0\Entities.pdb
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.csproj.AssemblyReference.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.AssemblyInfoInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.AssemblyInfo.cs
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.csproj.CoreCompileInputs.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.csproj.CopyComplete
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\ref\CentralBank_API.dll
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\CentralBank_API\obj\Debug\net5.0\CentralBank_API.pdb

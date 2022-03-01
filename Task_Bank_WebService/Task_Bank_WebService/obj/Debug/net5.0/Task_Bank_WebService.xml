@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task_Bank_WebService</name>
+    </assembly>
+    <members>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.Create(Entities.Models.Account)">
+            <summary>
+             Create
+            </summary>
+            <param name="account">New Account Data</param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.Update(Entities.Models.Account)">
+            <summary>
+             Update Account
+            </summary>
+            <param name="account">Modified Account Data</param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.Delete(System.Int32)">
+            <summary>
+             Delete (Soft) Account
+            </summary>
+            <param name="accountID">Account ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.Deposit(Entities.Models.Transaction)">
+            <summary>
+             Deposit Transaction
+            </summary>
+            <param name="trx">Transaction Data</param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.Withdraw(Entities.Models.Transaction)">
+            <summary>
+             Withdraw Transaction
+            </summary>
+            <param name="trx">Transaction Data</param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.GetAll">
+            <summary>
+             List available accounts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Task_Bank_WebService.Controllers.AccountController.PrintStatement(System.Int32)">
+            <summary>
+             Print Bank Statement for an Account
+            </summary>
+            <param name="accountID">Account ID</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
