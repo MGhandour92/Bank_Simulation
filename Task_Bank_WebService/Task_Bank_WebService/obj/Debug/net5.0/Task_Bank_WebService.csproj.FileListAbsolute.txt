@@ -70,3 +70,5 @@ F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Debug\net5.0\Task_Bank_WebService.xml
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Debug\net5.0\Task_Bank_WebService.pdb
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Debug\net5.0\Task_Bank_WebService.genruntimeconfig.cache
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\bin\Debug\net5.0\Accounts_File.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\bin\Debug\net5.0\Accounts_Transactions.json

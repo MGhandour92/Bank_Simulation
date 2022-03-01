@@ -44,20 +44,28 @@ namespace Account_API.Repos
         /// <param name="id">ID of an Account</param>
         public void Delete(int id, out string Response)
         {
-            _cbAccRepo.WriteToFile(new Account() { Id = id }, "update", out Response);
+            _cbAccRepo.WriteToFile(new Account() { Id = id }, "delete", out Response);
         }
 
         /// <summary>
         /// Get all available accounts only with flag isDeleted = false
         /// </summary>
         /// <returns>List of Accounts</returns>
-        public IQueryable<Account> FindAll() => _cbAccRepo.ReadFile().Where(acc => acc.IsDeleted == false);
+        public IEnumerable<Account> FindAll()
+        {
+            var accounts = _cbAccRepo.ReadFile();
+            if (accounts is not null)
+            {
+                return accounts.Where(acc => acc.IsDeleted == false);
+            }
+            return null;
+        }
 
         ///// <summary>
         ///// [Read] Get accounts by search pattern (1 or more)
         ///// </summary>
         ///// <returns>Search for Accounts</returns>
-        //public IQueryable<Account> FindByCondition(Expression<Func<Account, bool>> expression) => _cbAccRepo.ReadFile().Where(expression);
+        //public IEnumerable<Account> FindByCondition(Expression<Func<Account, bool>> expression) => _cbAccRepo.ReadFile().Where(expression);
 
         /// <summary>
         /// Add Transaction (Deposit or Withdraw)
@@ -100,7 +108,27 @@ namespace Account_API.Repos
         /// [Read] Get Transactions of an Account
         /// </summary>
         /// <returns>List of Transactions</returns>
-        public IQueryable<Transaction> FindAccTRXs(int Acc_Id) => _cbTRXRepo.ReadFile().Where(trx => trx.Account_Id == Acc_Id);
+        public IEnumerable<Transaction> FindAccTRXs(int Acc_Id)
+        {
+            //Get available accounts only
+            var accounts = _cbAccRepo.ReadFile();
+
+            if (accounts is not null)
+            {
+                var accountData = accounts.FirstOrDefault(acc => acc.Id == Acc_Id);
+
+                if (!accountData.IsDeleted)
+                {
+                    var trxs = _cbTRXRepo.ReadFile();
+                    if (trxs is not null)
+                    {
+                        return trxs.Where(trx => trx.Account_Id == Acc_Id);
+                    }
+                }
+                return null;
+            }
+            return null;
+        }
 
     }
 }

@@ -1,0 +1,1 @@
+[{"Id":1,"TRX_Date":"2022-03-01T11:29:35.334Z","Amount":25.0,"Type":"withdraw","Account_Id":1},{"Id":1,"TRX_Date":"2022-03-01T11:32:34.853Z","Amount":45.0,"Type":"deposit","Account_Id":1},{"Id":2,"TRX_Date":"2022-03-01T11:32:34.853Z","Amount":45.0,"Type":"deposit","Account_Id":2}]

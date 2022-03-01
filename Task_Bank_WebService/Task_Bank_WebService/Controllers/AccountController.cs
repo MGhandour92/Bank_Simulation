@@ -107,6 +107,8 @@ namespace Task_Bank_WebService.Controllers
         public IActionResult PrintStatement(int accountID)
         {
             var alltrx = _accRepo.FindAccTRXs(accountID);
+            if (alltrx is null)
+                return Ok("Account is not found or deleted");
             return Ok(alltrx);
         }
     }

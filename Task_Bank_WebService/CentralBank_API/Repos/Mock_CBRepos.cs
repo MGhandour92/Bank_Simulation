@@ -23,19 +23,19 @@ namespace Account_API.Repos
         /// Read the file of all accounts
         /// </summary>
         /// <returns>List of accounts</returns>
-        public IQueryable<Account> ReadFile()
+        public IEnumerable<Account> ReadFile()
         {
             if (Helpers.CheckExistFile(_fullPath))
             {
                 // Open the file to read from.
                 string fileData = File.ReadAllText(_fullPath);
                 //Deserialize to list of LogData
-                return JsonConvert.DeserializeObject<IQueryable<Account>>(fileData);
+                return JsonConvert.DeserializeObject<IEnumerable<Account>>(fileData);
             }
             else
                 //create an empty file
                 Helpers.CreateFile(_fullPath);
-            return null;
+            return Enumerable.Empty<Account>().AsQueryable();
         }
 
         /// <summary>
@@ -49,48 +49,54 @@ namespace Account_API.Repos
             response = "Success";
 
             //get all accounts
-            var allAccount = ReadFile().ToList();
+            var allAccount = ReadFile();
+            var acountsList = new List<Account>();
+            var originalAcc = new Account();
 
-            var originalAcc = allAccount.FirstOrDefault(acc => acc.Id == log.Id);
-
-            switch (action.ToLower())
+            if (allAccount is not null)
             {
-                case "create":
-                    //add the new account
-                    allAccount.Add(log);
-                    break;
-
-                case "update":
-                    if (originalAcc == null)
-                        response = "Account Not Found";
-
-                    //remove the original account
-                    allAccount.Remove(originalAcc);
-                    //add the new account
-                    allAccount.Add(log);
-                    break;
-
-                case "delete":
-                    if (originalAcc == null)
-                        response = "Account Not Found";
-
-                    //remove the original account
-                    allAccount.Remove(originalAcc);
-                    //modify it
-                    originalAcc.IsDeleted = true;
-                    //add it again
-                    allAccount.Add(originalAcc);
-                    break;
+                acountsList = allAccount.ToList();
+                originalAcc = allAccount.FirstOrDefault(acc => acc.Id == log.Id);
             }
 
-            //save data
-            //build json string
-            var jsonData = JsonConvert.SerializeObject(allAccount);
+            switch (action.ToLower())
+                {
+                    case "create":
+                        //add the new account
+                        acountsList.Add(log);
+                        break;
 
-            //create an empty file To replace the old one
-            Helpers.CreateFile(_fullPath);
-            //save new list
-            Helpers.WriteFile(_fullPath, jsonData);
+                    case "update":
+                        if (originalAcc == null)
+                            response = "Account Not Found";
+
+                        //remove the original account
+                        acountsList.Remove(originalAcc);
+                        //add the new account
+                        acountsList.Add(log);
+                        break;
+
+                    case "delete":
+                        if (originalAcc == null)
+                            response = "Account Not Found";
+
+                        //remove the original account
+                        acountsList.Remove(originalAcc);
+                        //modify it
+                        originalAcc.IsDeleted = true;
+                        //add it again
+                        acountsList.Add(originalAcc);
+                        break;
+                }
+
+                //save data
+                //build json string
+                var jsonData = JsonConvert.SerializeObject(acountsList);
+
+                //create an empty file To replace the old one
+                Helpers.CreateFile(_fullPath);
+                //save new list
+                Helpers.WriteFile(_fullPath, jsonData);            
         }
     }
 
@@ -106,19 +112,19 @@ namespace Account_API.Repos
         /// Read the file of all transactions
         /// </summary>
         /// <returns>List of transactions</returns>
-        public IQueryable<Transaction> ReadFile()
+        public IEnumerable<Transaction> ReadFile()
         {
             if (Helpers.CheckExistFile(_fullPath))
             {
                 // Open the file to read from.
                 string fileData = File.ReadAllText(_fullPath);
                 //Deserialize to list of LogData
-                return JsonConvert.DeserializeObject<IQueryable<Transaction>>(fileData);
+                return JsonConvert.DeserializeObject<IEnumerable<Transaction>>(fileData);
             }
             else
                 //create an empty file
                 Helpers.CreateFile(_fullPath);
-            return null;
+            return Enumerable.Empty<Transaction>().AsQueryable();
         }
 
         public void WriteToFile(Transaction log, string action, out string response)
@@ -126,14 +132,20 @@ namespace Account_API.Repos
             response = "Success";
 
             //get all transactions
-            var allTransaction = ReadFile().ToList();
+            var allTransaction = ReadFile();
+            var trxList = new List<Transaction>();
+
+            if (allTransaction is not null)
+            {
+                trxList = allTransaction.ToList();
+            }
 
             //Add the new transaction
-            allTransaction.Add(log);            
+            trxList.Add(log);            
 
             //save data
             //build json string
-            var jsonData = JsonConvert.SerializeObject(allTransaction);
+            var jsonData = JsonConvert.SerializeObject(trxList);
 
             //create an empty file To replace the old one
             Helpers.CreateFile(_fullPath);

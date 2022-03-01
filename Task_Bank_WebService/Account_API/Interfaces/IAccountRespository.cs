@@ -14,10 +14,10 @@ namespace Account_API.Interfaces
         void Update(Account account, out string Response);
         void Delete(int id, out string Response);
 
-        IQueryable<Account> FindAll();
-        //IQueryable<Account> FindByCondition(Expression<Func<Account, bool>> expression);
+        IEnumerable<Account> FindAll();
+        //IEnumerable<Account> FindByCondition(Expression<Func<Account, bool>> expression);
 
         void AddTransaction(Transaction log, out string Response);
-        IQueryable<Transaction> FindAccTRXs(int Acc_Id);
+        IEnumerable<Transaction> FindAccTRXs(int Acc_Id);
     }
 }

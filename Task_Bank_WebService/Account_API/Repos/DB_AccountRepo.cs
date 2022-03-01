@@ -1,6 +1,7 @@
 ﻿using Account_API.Interfaces;
 using Entities.Models;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
@@ -23,12 +24,12 @@ namespace Account_API.Repos
             throw new NotImplementedException();
         }
 
-        public IQueryable<Transaction> FindAccTRXs(int Acc_Id)
+        public IEnumerable<Transaction> FindAccTRXs(int Acc_Id)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Account> FindAll()
+        public IEnumerable<Account> FindAll()
         {
             throw new NotImplementedException();
         }

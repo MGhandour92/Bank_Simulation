@@ -10,7 +10,7 @@ namespace Account_API.Interfaces
 {
     public interface ICBRespository<T>
     {
-        IQueryable<T> ReadFile();
+        IEnumerable<T> ReadFile();
         void WriteToFile(T log, string action, out string response);
     }
 }

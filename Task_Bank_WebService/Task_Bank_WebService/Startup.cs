@@ -1,3 +1,6 @@
+using Account_API.Interfaces;
+using Account_API.Repos;
+using Entities.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -23,12 +26,16 @@ namespace Task_Bank_WebService
         }
 
         public IConfiguration Configuration { get; }
+        private string RootPath { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
+            services.AddSingleton<IAccountRespository, Mock_AccountRepo>();
+            services.AddSingleton<ICBRespository<Account>, Mock_CBRepo_Accounts>(_ => new Mock_CBRepo_Accounts(RootPath));
+            services.AddSingleton<ICBRespository<Transaction>, Mock_CBRepo_Transactions>(_ => new Mock_CBRepo_Transactions(RootPath));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Task Bank WebService", Version = "v1" });
@@ -45,6 +52,7 @@ namespace Task_Bank_WebService
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            RootPath = env.ContentRootPath;
             //if (env.IsDevelopment())
             //{
             app.UseDeveloperExceptionPage();
@@ -53,7 +61,7 @@ namespace Task_Bank_WebService
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Task_Bank_WebService v1");
                 c.DocumentTitle = "Task Bank WebService";
-               // c.RoutePrefix = string.Empty;
+                // c.RoutePrefix = string.Empty;
             });
             //}
 

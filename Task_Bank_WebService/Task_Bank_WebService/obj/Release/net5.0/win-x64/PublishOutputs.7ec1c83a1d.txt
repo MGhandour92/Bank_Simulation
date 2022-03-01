@@ -1,3 +1,5 @@
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Accounts_File.json
+F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Accounts_Transactions.json
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.Development.json
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.json
 F:\GIT\Study\Bank_Simulation_Task\Task_Bank_WebService\Task_Bank_WebService\obj\Release\net5.0\win-x64\PubTmp\Out\Task_Bank_WebService.pdb
