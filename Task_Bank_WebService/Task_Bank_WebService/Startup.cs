@@ -32,7 +32,7 @@ namespace Task_Bank_WebService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSingleton<IAccountRespository, Mock_AccountRepo>();
+            services.AddTransient<IAccountRespository, Mock_AccountRepo>();
             services.AddSingleton<ICBRespository<Account>, Mock_CBRepo_Accounts>(_ => new Mock_CBRepo_Accounts(RootPath));
             services.AddSingleton<ICBRespository<Transaction>, Mock_CBRepo_Transactions>(_ => new Mock_CBRepo_Transactions(RootPath));
 
